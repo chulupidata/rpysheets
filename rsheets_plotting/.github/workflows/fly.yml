@@ -4,7 +4,7 @@ on:  [push]
   #   branches:
   #     - main
 env:
-  FLY_API_TOKEN: BDOpwYp0CDW7zdLK8ZxV71lIinjnUuD8gVlU61T13k0
+  FLY_API_TOKEN: "BDOpwYp0CDW7zdLK8ZxV71lIinjnUuD8gVlU61T13k0"
 jobs:
   deploy:
       name: Deploy app
