@@ -1,6 +1,6 @@
 
 # Swagger docs at ...s/__swagger__/ (needs trailing slash!)
-if(Sys.getenv('PORT') == '') Sys.setenv(PORT = 8000)
+if(Sys.getenv('PORT') == '') Sys.setenv(PORT = 8080)
 
 #' @apiTitle R Google Sheets Formulas
 #' @apiDescription These endpoints allow the user to create custom functions in Google spreadsheets which call R functions.
